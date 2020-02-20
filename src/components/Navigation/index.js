@@ -1,6 +1,5 @@
 import React from 'react';
 import "./index.css";
-
 import logo from "../../img/truth-logo.png";
 
 class Navigation extends React.Component{
