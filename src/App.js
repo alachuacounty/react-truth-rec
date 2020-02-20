@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
     <Navigation name="Awhshvini" links={navLinks}></Navigation>
-    <Footer footertext="&copy Alachua County Truth and Reconciliation"/>
+    <Footer footertext="&copy; Alachua County Truth and Reconciliation"/>
     </div>
   );
 }
