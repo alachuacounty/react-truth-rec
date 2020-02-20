@@ -16,7 +16,7 @@ return(
 <p>Hello, {this.props.name}</p>
 
 <footer id="footer" class="footer">
-            <a class="alachua-info" href="#"> &copy Alachua County Truth and Reconciliation</a>
+<a class="alachua-info" href="#"> {this.props.footertext}</a>
     </footer>
 
 </div>
