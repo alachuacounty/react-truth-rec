@@ -11,8 +11,6 @@ import {
 import TestPage from './pages';
 
 
-
-
 function App() {
   const navLinks=[{title:'About', link: 'about.html'},{title:'Explore History', link: 'resources.html'}];
 
@@ -26,6 +24,8 @@ function App() {
        {/*All our Routes goes here!*/}
        <Route path="/" component={TestPage} />
       </Router>
+
+      
     </div>
   );
 }
