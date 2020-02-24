@@ -1,6 +1,11 @@
 import React from 'react';
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
+import MainPage from "./pages";
+
+import EventsPage from "./pages/events";
+
+//Import all needed Component for this tutorial
 import {
   BrowserRouter as Router,
   Route,
@@ -8,24 +13,26 @@ import {
   Link,
   Redirect
 } from "react-router-dom";
-import TestPage from './pages';
-
 
 function App() {
-  const navLinks=[{title:'About', link: 'about.html'},{title:'Explore History', link: 'resources.html'}];
+  const navLinks=[
+                  {title:'About', link: 'about.html'},
+                  {title:'Explore History', link: 'resources.html'},
+                  {title:'Reparations', link: 'reparations.html'},
+                  {title:'Events', link: '/events'},
+                  {title:'Contact', link: 'contact.aspx'}
+                ];
 
   return (
     <div>
-    <Navigation name="Awhshvini" links={navLinks}></Navigation>
-    <Footer footertext="&copy; Alachua County Truth and Reconciliation"/>
-
-
+    <Navigation links={navLinks}></Navigation>
     <Router>
-       {/*All our Routes goes here!*/}
-       <Route path="/" component={TestPage} />
-      </Router>
-
-      
+      <Switch>
+      <Route exact path="/" component={MainPage} />
+      <Route exact path="/events" component={EventsPage} />
+      </Switch>
+    </Router>
+    <Footer footertext="&copy; Alachua County Truth and Reconciliation"/>
     </div>
   );
 }

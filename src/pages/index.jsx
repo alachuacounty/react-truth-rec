@@ -1,13 +1,13 @@
 /*index.jsx*/
 import React from "react";
 //Functional Component 
-const TestPage = () => {
+const MainPage = () => {
   return (
     <div>
       <h3>Welcome to the React Router Tutorial</h3>
-      <small>Testing Pagge</small>
+      <small>Main Page</small>
     </div>
   );
 };
 
-export default TestPage;
+export default MainPage;
