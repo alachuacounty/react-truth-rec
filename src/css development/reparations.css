@@ -1,0 +1,117 @@
+.grid-container{
+    grid-template-rows: auto 1fr auto;
+}
+
+
+.main{
+    display:grid;
+    grid-template-columns: 22% 1fr 22%;
+    grid-template-rows: min-content min-content 1fr;
+    grid-template-areas: ". intro ." ". path ." ". . .";
+
+}
+#intro {
+    grid-area:intro;
+}
+
+#path{
+    grid-area:path;
+    display: grid;
+    grid-template-columns: 1fr 30px 1fr;
+    grid-template-areas: "left . right";
+    margin-top:30px;
+
+}
+
+/*set each path as the relative container*/
+.path-left{
+    grid-area: left;
+    position: relative;
+
+}
+.path-right{
+    grid-area:right;
+    position: relative;
+
+}
+
+.path-img{
+    width: 100%;
+    
+    
+}
+
+/* THIS IS THE OVERLAY FOR THE LEFT PATH  -- CODE FOR THE LEFT PATH IMAGE*/
+.span-text{
+    position: absolute;
+    height: 100%;  
+    width: 100%;   
+    top: 0;   
+    left: 0;
+}
+.text{
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translateY(-50%) translateX(-50%);  
+}
+
+.text p{
+    color: white;
+    border-bottom: solid 3px #9F895D;
+    font-size: 39px;
+}
+
+/* OVERLAY FOR THE RIGHT PATH -- CODE FOR THE RIGHT PATH IMAGE*/
+.span-text-right{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+}
+
+.text-right{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateY(-50%) translateX(-50%);
+ }
+ .text p{
+    
+    font-size: 39px;
+}
+
+.para-right{
+    color: white;
+    border-bottom: solid 3px #9F895D;
+    
+        font-size: 39px;
+ }
+@media screen and (max-width:1024px){
+    .main{
+        grid-template-columns: 10% 1fr 10%;
+    }
+
+    #path{
+        grid-template-columns: 10% 1fr 10%;
+        grid-template-rows: 1fr 30px 1fr; 
+        grid-template-areas: ". left ." ". . ." ". right .";    
+
+    }
+
+    .text p{
+        font-size: 15px;
+    }
+    .para-right{
+    color:white;
+    border-bottom: solid 3px  #9F895D;
+    font-size: 20px;
+    }
+}
+@media screen and (max-width:480px){
+    #path{
+        grid-template-columns: 0 1fr 0;
+    }
+
+}

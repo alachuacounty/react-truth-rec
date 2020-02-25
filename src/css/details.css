@@ -1,0 +1,108 @@
+.grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;
+    -ms-grid-columns:100%;
+    grid-template-columns:100%;
+        grid-template-areas:
+        "nav"
+        "main"
+        "footer";
+}
+
+.main{
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: main;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 70% 35px 30%;
+    grid-template-columns: 70% 30%;
+    grid-gap: 35px;
+    padding-left: 22%;
+    padding-right: 22%;
+    padding-bottom: 5%;
+    -ms-grid-rows: auto 35px auto 35px auto;
+        grid-template-areas:
+    "breadcrumb breadcrumb"
+    "details-title details-title"
+    "details-text details-image";
+}
+
+.details-title{
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: details-title;
+}
+
+.breadcrumb{
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: breadcrumb;
+background: pink;
+    height: 45px;
+}
+
+.details-text{
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: details-text;
+}
+
+.details-text p{
+    line-height: 1.8rem;
+}
+
+.writer-info{
+    padding-top: 2%;
+    padding-left: 10%;
+}
+.transcribed {
+    padding-top: 4%;
+}
+.details-image{
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  grid-area: details-image;
+}
+.details-image img{
+    width: 100%;
+}
+
+@media screen and (max-width:800px){
+    .main{
+        -ms-grid-columns:1fr;
+        grid-template-columns:1fr;      
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        -ms-grid-rows: auto 35px auto 35px auto 35px auto;
+            grid-template-areas:
+        "breadcrumb"
+        "details-title"
+        "details-image" 
+        "details-text";
+    }
+    .details-title{
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+    }
+    .breadcrumb{
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+    }
+    .details-text{
+        -ms-grid-row: 7;
+        -ms-grid-column: 1;
+    }
+    .details-image{
+        -ms-grid-row: 5;
+        -ms-grid-column: 1;
+    }
+}
+

@@ -1,0 +1,85 @@
+
+/* STYLES FOR 1024 AND LARGER*/
+body {
+    font-size: 20px;
+    margin: 0;
+}
+
+.grid-container {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas:
+        "nav"
+        "main"
+        "footer"
+}
+#main {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: main;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 25% 1fr 25%;
+    grid-template-columns: 25% 1fr 25%;
+        grid-template-areas: ". content .";
+    
+}
+.main-content{
+    -ms-grid-row:1;
+    -ms-grid-column:2;
+    grid-area:content;
+}
+/* CSS FOR NAVBAR AND SUBNAV BAR*/
+
+  /* CODE FOR HAMBURGER MENU HERE*/
+
+/*HAMBURGER ENDS HERE */
+
+
+
+
+/*
+footer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    right:0;
+    left:0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background-color:#252525;
+    color:white;
+    height:50px;
+    align-content: center;
+}
+
+.visit {
+    grid-column: 2/6;
+    margin: 0;
+    
+}
+
+.alachua-info{
+    font-size: 15px;
+    color:white;
+   
+}
+*/
+
+/*1024 AND LARGER STYLES END HERE*/
+
+@media screen and (max-width: 480px) {
+   
+    /* CSS FOR NAVBAR AND SUBNAV BAR*/
+
+    #main {
+        -ms-grid-columns: 10% 1fr 10%;
+        grid-template-columns: 10% 1fr 10%;       
+    }
+    .main-content{
+        padding: 7px;
+        -ms-flex-line-pack: justify;
+            align-content: justify;
+    }
+
+}

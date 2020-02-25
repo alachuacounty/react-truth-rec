@@ -1,0 +1,72 @@
+
+/* STYLES FOR 1024 AND LARGER*/
+
+.grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: (auto)[3];
+    grid-template-rows: repeat(3, auto);
+        grid-template-areas:
+        "nav"
+        "map"
+        "footer"
+}
+#map{
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    width: 100%;
+    height: calc(100vh - 180px);
+    background-color: grey;
+    grid-area: map;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr; 
+}
+.mapouter{
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+}
+
+
+/******************************************************************
+                    
+                        MAP CUSTOM STYLES
+
+******************************************************************/
+
+.marker-info{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 3% 55% 3% 35% 3%;
+    grid-template-columns: 3% 55% 3% 35% 3%;
+}
+
+.marker-text{
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+}
+.marker-image{
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-column: 4/5;
+    margin:auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.marker-image img{
+    width:100%;
+}
+.gm-ui-hover-effect {
+
+    top:0 !important;
+    right:0 !important;
+}

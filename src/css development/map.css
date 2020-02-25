@@ -1,0 +1,52 @@
+
+/* STYLES FOR 1024 AND LARGER*/
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+        "nav"
+        "map"
+        "footer"
+}
+#map{
+    width: 100%;
+    height: calc(100vh - 180px);
+    background-color: grey;
+    grid-area: map;
+    display: grid;
+    grid-template-columns: 1fr; 
+}
+.mapouter{
+    grid-column: 1/2;
+}
+
+
+/******************************************************************
+                    
+                        MAP CUSTOM STYLES
+
+******************************************************************/
+
+.marker-info{
+    display: grid;
+    grid-template-columns: 3% 55% 3% 35% 3%;
+}
+
+.marker-text{
+    grid-column: 2/3;
+}
+.marker-image{
+    grid-column: 4/5;
+    margin:auto;
+    display: flex;
+    align-items: center;
+}
+.marker-image img{
+    width:100%;
+}
+.gm-ui-hover-effect {
+
+    top:0 !important;
+    right:0 !important;
+}
