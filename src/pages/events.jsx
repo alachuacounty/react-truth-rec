@@ -1,4 +1,5 @@
 import React from "react";
+import '../css/TruthRec.css';
 import "../css/events.css";
 
 //Functional Component 
@@ -19,8 +20,6 @@ const EventsPage = () => {
             <br/>
             <br/>
             <br/>
-
-
             <h2 class="title">Past Events</h2>
               <div>
                 <h3><strong>2/17/2020 - Alachua County BoCC Special Meeting/Workshop – Truth and Reconciliation Community Remembrance Project</strong></h3>
