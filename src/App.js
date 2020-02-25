@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from "./components/Navigation";
+import Modal from "./components/Modal"
 import Footer from "./components/Footer";
 import MainPage from "./pages";
 
@@ -26,6 +27,7 @@ function App() {
   return (
     <div>
     <Navigation links={navLinks}></Navigation>
+    <Modal links={navLinks}></Modal>
     <Router>
       <Switch>
       <Route exact path="/" component={MainPage} />

@@ -8,8 +8,7 @@ class Navigation extends React.Component{
     render(){
 
         return(
-            <div>
-              <div class="nav">
+              <section class="nav">
                                 
                     <div class=" grid-item logo">
                         <a href="/">
@@ -41,8 +40,7 @@ class Navigation extends React.Component{
                         </ul>
                     </div>
 
-                </div>
-            </div>
+                </section>
 
         );
     }
