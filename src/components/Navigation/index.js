@@ -34,9 +34,9 @@ class Navigation extends React.Component{
 
                     <div class="grid-item subnav">
                         <ul class="sub-elements">
-                            <li><a href="resources.html">Resources</a></li>
-                            <li><a href="timeline.html">Timeline</a></li>
-                            <li><a href="map.html">Map</a></li>
+                            <li><a href={this.props.links[5].link}>{this.props.links[5].title}</a></li>
+                            <li><a href={this.props.links[6].link}>{this.props.links[6].title}</a></li>
+                            <li><a href={this.props.links[7].link}>{this.props.links[7].title}</a></li>
                         </ul>
                     </div>
 

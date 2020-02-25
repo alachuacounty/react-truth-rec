@@ -21,16 +21,19 @@ function App() {
                   {title:'Explore History', link: 'resources.html'},
                   {title:'Reparations', link: 'reparations.html'},
                   {title:'Events', link: '/events'},
-                  {title:'Contact', link: 'contact.aspx'}
+                  {title:'Contact', link: 'contact.aspx'},
+                  {title:'Resources', link: 'resources.html'},
+                  {title:'Timeline', link: 'timeline.html'},
+                  {title:'Map', link: 'map.html'}
                 ];
 
   return (
-    <div>
+    <div class="grid-container">
     <Navigation links={navLinks}></Navigation>
     <Modal links={navLinks}></Modal>
     <Router>
       <Switch>
-      <Route exact path="/" component={MainPage} />
+      <Route exact path="/"  render={(props) => <MainPage {...props} links={navLinks} />}/>
       <Route exact path="/events" component={EventsPage} />
       </Switch>
     </Router>
