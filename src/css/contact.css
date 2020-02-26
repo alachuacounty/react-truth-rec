@@ -165,6 +165,10 @@ select{
 	color:red;
 }
 
+.form-validation{
+	display:none;
+}
+
 
 /*****************************************/
         /* STYLES FOR FORM END HERE*/
