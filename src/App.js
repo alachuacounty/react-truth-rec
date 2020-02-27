@@ -8,6 +8,7 @@ import EventsPage from "./pages/events";
 import ContactPage from "./pages/contact";
 import ResourcesPage from "./pages/resources";
 import LandmarksPage from "./pages/landmarks";
+import TimelinePage from "./pages/timeline";
 
 
 
@@ -30,7 +31,7 @@ function App() {
                   {title:'Contact', link: '/contact'},
                   {title:'Resources', link: '/resources'},
                   {title:'Landmarks', link: '/landmarks'},
-                  {title:'Timeline', link: 'timeline.html'},
+                  {title:'Timeline', link: '/timeline'},
                   {title:'Map', link: 'map.html'}
                 ];
 
@@ -48,6 +49,7 @@ function App() {
       
       <Route exact path="/resources" component={ResourcesPage} />
       <Route exact path="/landmarks" component={LandmarksPage} />
+      <Route exact path="/timeline" component={TimelinePage} />
       </Switch>
     </Router>
     <Footer footertext="&copy; Alachua County Truth and Reconciliation"/>
