@@ -5,7 +5,7 @@ import img1 from "../img/courthouse-overlay.png";
 import img2 from "../img/road-overlay.png";
 import img3 from "../img/map-overlay.png";
 import '../css/TruthRec.css';
-import "../css/main.css"
+import "../css/main.css";
 import { render } from "@testing-library/react";
 
 //Functional Component 
