@@ -27,7 +27,7 @@ function App() {
                   {title:'Reparations', link: 'reparations.html'},
                   {title:'Events', link: '/events'},
                   {title:'Contact', link: '/contact'},
-                  {title:'Resources', link: 'resources.html'},
+                  {title:'Resources', link: '/resources'},
                   {title:'Timeline', link: 'timeline.html'},
                   {title:'Map', link: 'map.html'}
                 ];
@@ -43,6 +43,7 @@ function App() {
       <Route exact path="/events" component={EventsPage} />
       <Route exact path="/contact" component={ContactPage} />
       <Route exact path="/about" component={AboutPage} />
+      
       <Route exact path="/resources" component={ResourcesPage} />
       </Switch>
     </Router>
