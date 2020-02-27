@@ -3,11 +3,13 @@ import '../css/TruthRec.css';
 import "../css/events.css";
 
 //Functional Component 
-const EventsPage = () => {
-  return (
+class EventsPage extends React.Component {
+  
+    render(){
+    return (
     <section id="main-section" class="main">
         <div id="main-content">
-            <h1 class="title">Upcoming Events</h1>
+        <h1 class="title">Upcoming Events </h1>
             <div>
               <h3><a href="https://afam.clas.ufl.edu/african-american-studies-symposium/"><strong>2/20/2020 -
                                     African American Studies Turns 50! Symposium &amp; Anniversary Celebration</strong></a></h3>
@@ -89,6 +91,7 @@ const EventsPage = () => {
                 </div>
             </section>
   );
+  }
 };
 
 export default EventsPage;
