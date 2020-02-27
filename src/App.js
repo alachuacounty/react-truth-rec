@@ -6,6 +6,7 @@ import MainPage from "./pages";
 import AboutPage from "./pages/about";
 import EventsPage from "./pages/events";
 import ContactPage from "./pages/contact";
+import ResourcesPage from "./pages/resources";
 
 
 
@@ -22,7 +23,7 @@ import {
 function App() {
   const navLinks=[
                   {title:'About', link: '/about'},
-                  {title:'Explore History', link: 'resources.html'},
+                  {title:'Explore History', link: '/resources'},
                   {title:'Reparations', link: 'reparations.html'},
                   {title:'Events', link: '/events'},
                   {title:'Contact', link: '/contact'},
@@ -42,6 +43,7 @@ function App() {
       <Route exact path="/events" component={EventsPage} />
       <Route exact path="/contact" component={ContactPage} />
       <Route exact path="/about" component={AboutPage} />
+      <Route exact path="/resources" component={ResourcesPage} />
       </Switch>
     </Router>
     <Footer footertext="&copy; Alachua County Truth and Reconciliation"/>
