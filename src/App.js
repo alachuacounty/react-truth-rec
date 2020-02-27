@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation";
 import Modal from "./components/Modal"
 import Footer from "./components/Footer";
 import MainPage from "./pages";
+
 import EventsPage from "./pages/events";
 import ContactPage from "./pages/contact";
 
@@ -35,6 +36,7 @@ function App() {
     <Router>
       <Switch>
       <Route exact path="/"  render={(props) => <MainPage {...props} links={navLinks} />}/>
+    
       <Route exact path="/events" component={EventsPage} />
       <Route exact path="/contact" component={ContactPage} />
       </Switch>
