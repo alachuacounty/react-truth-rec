@@ -13,7 +13,7 @@ class MainPage extends React.Component {
 
   render(){
     return (
-        <section class="main">
+        <section class="index-main">
 
               <div class="hero grid-item">
                   <img class="hero-img" src="img/cropped-cover-image.png" alt="downtown gainesville image"/>

@@ -3,7 +3,7 @@
     grid-template-rows: auto 1fr auto;
 }
 
-.meat{
+.resources-meat{
     display:-webkit-box;
     display:-moz-box;
     display:-ms-flexbox;
@@ -370,7 +370,7 @@ p{
      
 @media screen and (max-width: 860px) {
   
-    .main{
+    .resources-main{
         -ms-grid-columns: 10% 1fr 10%;
         grid-template-columns: 10% 1fr 10%;
     }

@@ -8,7 +8,7 @@
 #main-section {
     /*min-height: calc(100vh - 195px);*/
 }
-.main {
+.index-main {
 
     grid-area: main-section;
 

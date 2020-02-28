@@ -6,8 +6,8 @@ class ResourcesPage extends React.Component{
 render(){
 
 return(
-<section id="main-section" class="main">
-        <div class="meat">
+<section id="resources-section" class="resources-main">
+        <div class="resources-meat">
             <div class="grid-item title">
                 <h1>Resources</h1>
             </div>

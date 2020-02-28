@@ -7,7 +7,7 @@ class EventsPage extends React.Component {
   
     render(){
     return (
-    <section id="main-section" class="main">
+    <section id="events-main" class="events-main">
         <div id="main-content">
         <h1 class="title">Upcoming Events </h1>
             <div>

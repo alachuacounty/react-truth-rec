@@ -75,6 +75,12 @@ footer {
    
 }
 */
+h1.title {
+    -ms-grid-row:1;
+    -ms-grid-column:2;
+    margin: auto;
+    grid-area:title;
+  }
 
 
 /*****************************************/
