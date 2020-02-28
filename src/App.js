@@ -45,8 +45,7 @@ function App() {
     
       <Route exact path="/events" component={EventsPage} />
       <Route exact path="/contact" component={ContactPage} />
-      <Route exact path="/about" component={AboutPage} />
-      
+      <Route exact path="/about" component={AboutPage} /><Route exact path="/landmarks" component={LandmarksPage} />
       <Route exact path="/resources" component={ResourcesPage} />
       <Route exact path="/landmarks" component={LandmarksPage} />
       <Route exact path="/timeline" component={TimelinePage} />
