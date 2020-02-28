@@ -11,7 +11,7 @@ render(){
 return(
 
     <section class="main-about">
-    <h1 class="title">Alachua County Truth and Reconciliation Initiative.</h1>
+    <h1 class="title-about">Alachua County Truth and Reconciliation Initiative.</h1>
     <div class="meat-content">
          <p>Concerning the Truth and Reconciliation process, the Board passed the following:</p>
 

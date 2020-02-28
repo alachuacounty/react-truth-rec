@@ -13,7 +13,7 @@ return(
 <section id="resources-section" class="resources-main">
         <div class="resources-meat">
             <div class="grid-item title">
-                <h1>Resources</h1>
+                <h1 class="title-resources">Resources</h1>
             </div>
             <div class="grid-items">
                 <div class="image-grid">
