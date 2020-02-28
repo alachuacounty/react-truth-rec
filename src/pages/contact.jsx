@@ -145,8 +145,8 @@ class ContactPage extends React.Component {
 
     render(){
         return (
-            <section id="contact-main" class="contact-main">
-                <div id="contact-main">
+            <section id="contact-main" class="main">
+                <div id="main-content">
                     <h1 class="title">Contact Us</h1>
                     <div class="contact-story">
                         <h3><strong>Send Us Your Story</strong></h3>
