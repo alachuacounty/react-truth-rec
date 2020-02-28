@@ -363,8 +363,8 @@ return(
                         <span class="cd-date">Jan 12</span>
 
 
-                    </div> /* cd-timeline-content */
-                </div> /* cd-timeline-block */
+                    </div> 
+                </div>
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img cd-location">
                     </div>
