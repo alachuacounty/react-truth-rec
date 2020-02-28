@@ -1,4 +1,11 @@
 import React from 'react';
+import newberryMarker from "../img/landmark-img/Newberry-Lynching-Marker.jpg";
+import wallsSign from "../img/landmark-img/walls.png";
+import serenolaPlantation from "../img/landmark-img/serenola.png";
+import quinnJones from "../img/landmark-img/quinn-jones.png";
+import libertyHill from "../img/landmark-img/liberty-hill.png";
+import shadyGrove from "../img/landmark-img/shady-grove.png";
+import pleasantStreet from "../img/landmark-img/pleasant-street.png";
 import '../css/TruthRec.css';
 import "../css/landmarks.css";
 class LandmarksPage extends React.Component {
@@ -26,7 +33,7 @@ class LandmarksPage extends React.Component {
                 <article class="walls-sign">
                     <div class="image-top">
                         <a data-toggle="modal" data-target="#NewberryLynchingMarker">
-                            <img src="img/landmark-img/Newberry-Lynching-Marker.jpg" class="resource" alt="Newberry Lynching Marker" />
+                            <img src={newberryMarker} class="resource" alt="Newberry Lynching Marker" />
                         </a>
                         <div class="shadow-text">
                             <p><a data-toggle="modal" data-target="#NewberryLynchingMarker"><strong>Newberry Lynching
@@ -38,7 +45,7 @@ class LandmarksPage extends React.Component {
                 <article class="walls-sign">
                     <div class="image-top">
                         <a data-toggle="modal" data-target="#Josiah">
-                            <img src="img/landmark-img/walls.png" class="resource" alt="Walls Lankdmark Image" />
+                            <img src={wallsSign} class="resource" alt="Walls Lankdmark Image" />
                         </a>
                         <div class="shadow-text">
                             <p><a data-toggle="modal" data-target="#Josiah"><strong>Josiah T. Walls</strong></a></p>
@@ -54,13 +61,13 @@ class LandmarksPage extends React.Component {
                     <div class="image-top">
                         <a href="#img2">
                             </a><a data-toggle="modal" data-target="#Serenola">
-                                <img src="img/landmark-img/serenola.png" class="resource" alt="Image pf Serenola Landmark" />
+                                <img src={serenolaPlantation} class="resource" alt="Image pf Serenola Landmark" />
                             </a>
                         
 
                    
                         <a href="#_" class="lightbox" id="img3">
-                            <img src="img/landmark-img/serenola.png" alt="Image of Serenola Landmark" />
+                            <img src={serenolaPlantation} alt="Image of Serenola Landmark" />
                         </a>
                         <div class="shadow-text">
                             <p><a data-toggle="modal" data-target="#Serenola"><strong>Serenola Plantation</strong></a>
@@ -86,7 +93,7 @@ class LandmarksPage extends React.Component {
                     <div class="image-top">
 
                         <a data-toggle="modal" data-target="#quinn">
-                            <img src="img/landmark-img/quinn-jones.png" class="resource" alt="Image of Quinn Jones Landmark" />
+                            <img src={quinnJones} class="resource" alt="Image of Quinn Jones Landmark" />
                         </a>
 
 
@@ -102,7 +109,7 @@ class LandmarksPage extends React.Component {
                     <div class="image-top">
 
                         <a data-toggle="modal" data-target="#liberty">
-                            <img src="img/landmark-img/liberty-hill.png" class="resource" alt="Image of Liberty Hill Landmar" />
+                            <img src={libertyHill} class="resource" alt="Image of Liberty Hill Landmar" />
                         </a>
 
 
@@ -121,7 +128,7 @@ class LandmarksPage extends React.Component {
                     <div class="image-top">
 
                         <a data-toggle="modal" data-target="#shady-grove">
-                            <img src="img/landmark-img/shady-grove.png" class="resource" alt="Image of Shady Grove Baptist Church" />
+                            <img src={shadyGrove} class="resource" alt="Image of Shady Grove Baptist Church" />
                         </a>
 
 
@@ -139,7 +146,7 @@ class LandmarksPage extends React.Component {
                     <div class="image-top">
 
                         <a data-toggle="modal" data-target="#pleasant">
-                            <img src="img/landmark-img/pleasant-street.png" class="resource" alt="image of baseball players" />
+                            <img src={pleasantStreet} class="resource" alt="Image of pleasant street historic district" />
                         </a>
 
 
