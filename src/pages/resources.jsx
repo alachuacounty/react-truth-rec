@@ -1,4 +1,8 @@
 import React from 'react';
+import cottonClub from "../img/cotton-club-overlay.png";
+import documentImg from "../img/document-overlay.png";
+import landmarkImg from "../img/links-overlay.png";
+import linksImg from "../img/links-overlay.png";
 import '../css/TruthRec.css';
 import "../css/resources.css";
 class ResourcesPage extends React.Component{
@@ -16,7 +20,7 @@ return(
                    
                     <div class="media">
                         <a href="media-gallery.html">
-                            <img class="resource" src="img/cotton-club-overlay.png" alt="Image-left" />
+                            <img class="resource" src={cottonClub} alt="Image-left" />
                         
                             <div class="overlay">
 
@@ -36,7 +40,7 @@ return(
                     </div>
                     <div class="documents">
                         <a href="documents.html">
-                            <img class="resource" src="img/document-overlay.png" alt="Image-left" />
+                            <img class="resource" src={documentImg} alt="Image-left" />
                         
 
                         <div class="overlay">    
@@ -58,7 +62,7 @@ return(
           
                     <div class="landmarks">
                         <a href="landmarks.html">
-                            <img class="resource" src="img/ladmark-resource-overlay.png" alt="Image-left" />
+                            <img class="resource" src={landmarkImg} alt="Image-left" />
                         
                         <div class="overlay">
                                 
@@ -79,7 +83,7 @@ return(
                  
                     <div class="links">
                         <a href="links.html">
-                            <img class="resource" src="img/links-overlay.png" alt="Image-left" />
+                            <img class="resource" src={linksImg} alt="Image-left" />
                         
                         <div class="overlay">
                                 
