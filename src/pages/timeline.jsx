@@ -30,13 +30,13 @@ return(
 
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img cd-movie">
-                    </div>
+                    </div> 
                     <div class="cd-timeline-content">
                         <h2>Harry Simonton</h2>
                         <p>Town: Micanopy</p>
                         <span class="cd-date">Date Unknown</span>
                     </div> 
-                </div>
+                </div> 
 
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img cd-picture">
@@ -92,7 +92,7 @@ return(
                         <p>Town: Newnansville</p>
                         <span class="cd-date">Date Unknown</span>
                     </div> 
-                </div>
+                </div> 
 
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img cd-location">
@@ -102,7 +102,7 @@ return(
                         <p>Town: Newnansville</p>
                         <span class="cd-date">Oct 12</span>
                     </div> 
-                </div>
+                </div> 
 
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img cd-location">
@@ -235,7 +235,7 @@ return(
                         <p>Town: Gainesville</p>
                         <p>Location: Jail</p>
                         <span class="cd-date">Early May </span>
-                    </div>
+                    </div> 
                 </div> 
 
                 <div class="cd-timeline-block cd-year">
@@ -264,7 +264,7 @@ return(
                         <span class="cd-date">Feb 17</span>
 
 
-                    </div>
+                    </div> 
                 </div> 
 
                 <div class="cd-timeline-block">
@@ -321,7 +321,7 @@ return(
                         <p>Town: Rochelle</p>
                         <p>Location: House</p>
                         <span class="cd-date">Jan 12 </span>
-                    </div>
+                    </div> 
                 </div> 
                 <div class="cd-timeline-block cd-year">
                     <div class="cd-timeline-img">
@@ -364,7 +364,7 @@ return(
 
 
                     </div> 
-                </div>
+                </div> 
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img cd-location">
                     </div>
@@ -375,7 +375,7 @@ return(
                         <span class="cd-date">Jan 12</span>
 
 
-                    </div>
+                    </div> 
                 </div> 
 
                 <div class="cd-timeline-block cd-year">
@@ -404,6 +404,7 @@ return(
                         <span class="cd-date">Sep 1 </span>
 
                     </div> 
+                </div> 
                 <div class="cd-timeline-block cd-year">
                     <div class="cd-timeline-img">
                         <span class="cd-year-content">1904</span>
@@ -435,7 +436,7 @@ return(
                         <p>Location: A spreading oak</p>
                         <span class="cd-date">Feb 6 </span>
                     </div> 
-                </div>
+                </div> 
                 <div class="cd-timeline-block cd-year">
                     <div class="cd-timeline-img">
                         <span class="cd-year-content">1913</span>
@@ -515,7 +516,7 @@ return(
                         <p>Town: Newberry</p>
                         <p>Location: A mile from town</p>
                         <span class="cd-date">Aug 19 </span>
-                    </div>
+                    </div> 
                 </div> 
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img cd-location">
@@ -537,7 +538,7 @@ return(
                         <p>Town: Newberry</p>
                         <p>Location: A mile from town</p>
                         <span class="cd-date">Aug 19 </span>
-                    </div>
+                    </div> 
                 </div> 
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img cd-location">
@@ -558,8 +559,8 @@ return(
                         <p>Town: Newberry</p>
                         <p>Location: Buried along railroad tracks between Dudley house</p>
                         <span class="cd-date">Aug 19 </span>
-                    </div>
-                </div>
+                    </div> 
+                </div> 
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img cd-location">
                     </div>
@@ -593,9 +594,7 @@ return(
                 </div> 
 
             </div> 
-            </div>
     </section>
-
 
 );
 
