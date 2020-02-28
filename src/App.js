@@ -24,15 +24,19 @@ import {
 
 function App() {
   const navLinks=[
-                  {title:'About', link: '/about'},
-                  {title:'Explore History', link: '/resources'},
-                  {title:'Reparations', link: 'reparations.html'},
-                  {title:'Events', link: '/events'},
-                  {title:'Contact', link: '/contact'},
-                  {title:'Resources', link: '/resources'},
-                  {title:'Landmarks', link: '/landmarks'},
-                  {title:'Timeline', link: '/timeline'},
-                  {title:'Map', link: 'map.html'}
+                  {title:'About', link: '/about'}, //0
+                  {title:'Explore History', link: '/resources'}, //1
+                  {title:'Reparations', link: 'reparations.html'}, //2
+                  {title:'Events', link: '/events'},//3
+                  {title:'Contact', link: '/contact'},//4
+                  {title:'Resources', link: '/resources'},//5
+                  {title:'Landmarks', link: '/landmarks'},//6
+                  {title:'Timeline', link: '/timeline'},//7
+                  {title:'Map', link: 'map.html'},//8
+                  {title:'Media', link:'/media'},//9
+                  {title:'Documents', link:'/documents'},//10
+                  {title:'Landmarks', link:'/landmarks'},//11
+                  {title:'Links', link:'/links'}//12
                 ];
 
   return (
@@ -46,7 +50,7 @@ function App() {
       <Route exact path="/events" component={EventsPage} />
       <Route exact path="/contact" component={ContactPage} />
       <Route exact path="/about" component={AboutPage} /><Route exact path="/landmarks" component={LandmarksPage} />
-      <Route exact path="/resources" component={ResourcesPage} />
+      <Route exact path="/resources" render={(props) => <ResourcesPage {...props} links={navLinks} />} />
       <Route exact path="/landmarks" component={LandmarksPage} />
       <Route exact path="/timeline" component={TimelinePage} />
       </Switch>

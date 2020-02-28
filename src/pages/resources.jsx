@@ -19,7 +19,7 @@ return(
                 <div class="image-grid">
                    
                     <div class="media">
-                        <a href="media-gallery.html">
+                        <a href={this.props.links[9].link}>
                             <img class="resource" src={cottonClub} alt="Image-left" />
                         
                             <div class="overlay">
@@ -27,7 +27,7 @@ return(
                             </div>
                             <div class="span-text">
                                     <div class="text">
-                                        <p>Media</p>
+<p>{this.props.links[9].title}</p>
                                     </div>
                                 </div>
 
@@ -39,7 +39,7 @@ return(
                             </a>
                     </div>
                     <div class="documents">
-                        <a href="documents.html">
+                        <a href={this.props.links[10].link}>
                             <img class="resource" src={documentImg} alt="Image-left" />
                         
 
@@ -48,7 +48,7 @@ return(
 
                         <div class="span-text">
                             <div class="text">
-                                <p>Documents</p>
+                                <p>{this.props.links[10].title}</p>
                             </div>
                         </div>
 
@@ -61,7 +61,7 @@ return(
                     </div>
           
                     <div class="landmarks">
-                        <a href="landmarks.html">
+                        <a href={this.props.links[11].link}>
                             <img class="resource" src={landmarkImg} alt="Image-left" />
                         
                         <div class="overlay">
@@ -69,7 +69,7 @@ return(
                         </div>
                         <div class="span-text">
                                 <div class="text">
-                                    <p>Landmarks</p>
+                                    <p>{this.props.links[11].title}</p>
                                 </div>
                             </div>
 
@@ -82,7 +82,7 @@ return(
                     </div>
                  
                     <div class="links">
-                        <a href="links.html">
+                        <a href={this.props.links[12].link}>
                             <img class="resource" src={linksImg} alt="Image-left" />
                         
                         <div class="overlay">
@@ -91,7 +91,7 @@ return(
 
                         <div class="span-text">
                                 <div class="text">
-                                    <p>Links</p>
+                                    <p>{this.props.links[12].title}</p>
                                 </div>
                             </div>
 
