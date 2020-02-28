@@ -8,6 +8,9 @@ import shadyGrove from "../img/landmark-img/shady-grove.png";
 import pleasantStreet from "../img/landmark-img/pleasant-street.png";
 import '../css/TruthRec.css';
 import "../css/landmarks.css";
+
+var hiddenStyle = {display : 'none'};
+
 class LandmarksPage extends React.Component {
 
     render(){
@@ -17,6 +20,7 @@ class LandmarksPage extends React.Component {
 
 
 <section class="main" id="main-section">
+
             <div class="title">
                 <h1>Landmarks</h1>
             </div>
@@ -161,6 +165,193 @@ class LandmarksPage extends React.Component {
 
                 </article>
             </div>
+
+    <div class="bs-example">
+    <div id="NewberryLynchingMarker" class="modal fade" style={hiddenStyle}>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">Newberry Lynching Marker</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-description">
+                        <p>The marker tells the story of Stella Young, James Dennis, Mary Dennis, Bert Dennis, Reverend J.J. Baskins and Andrew McHenry who were lynched in Newberry, Alachua County, Florida, on August 18,
+                            1916.</p>
+                    </div>
+
+                    <img class="modal-landmark" src="img/landmark-img/Newberry-Lynching-Marker.jpg" alt="Newberry Lynching Marker"/>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="bs-example">
+
+    <div id="Josiah" class="modal fade" style={hiddenStyle}>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">Josiah T. Walls</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-description">
+                        <p>Born in 1842 to slave parents in Winchester, Va., little is known of Josiah T. Walls’
+                            early life. After a short term of Confederate service, he enlisted in the Third
+                            Regiment, U.S. Colored Troops in 1863. </p>
+                        <p>For more info, <a href="http://www.explorehistoricalachuacounty.com/location/josiah-t-walls/" target="blank">Click Here</a></p>
+                    </div>
+
+                    <img class="modal-landmark" src="img/landmark-img/walls.png" alt=""/>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bs-example">
+    <div id="Serenola" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">Serenola Plantation</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-description">
+                        <p>In 1857, David Rogerson Williams II (1822-1907) of Darlington Co., SC, purchased 1,000
+                            acres, including this site bordering Payne’s Prairie, and developed them as a plantation
+                            known as “Serenola.” The 1860 census shows 120 slaves lived in 24 houses on the
+                            plantation, where cotton, sugar cane, and corn were grown. </p>
+                        <p>For more info, <a href="http://www.explorehistoricalachuacounty.com/location/serenola-plantation-historical-marker/" target="blank">Click Here</a></p>
+                    </div>
+                    <img class="modal-landmark" src="img/landmark-img/serenola.png" alt=""/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="bs-example">
+    <div id="quinn" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">A. Quinn Jones House</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-description">
+                        <p>A. Quinn Jones, Sr. (1893-1997), teacher, educational leader, and prominent
+                            African-American advocate, lived here from 1925 to 1997. </p>
+                        <p>For more info, <a href="http://www.explorehistoricalachuacounty.com/location/a-quinn-jones-house/" target="blank">Click Here</a></p>
+                    </div>
+
+
+                    <img class="modal-landmark" src="img/landmark-img/quinn-jones.png" alt=""/>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="bs-example">
+
+    <div id="liberty" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">Liberty Hill School House</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-description">
+                        <p>Liberty Hill Schoolhouse is on the list of Florida’s Historic Black Public Schools and
+                            was established in 1875, historically significant for its 110-year association with
+                            education and for its importance to the cultural heritage of the African American
+                            community in Gainesville. </p>
+                        <p>For more info, <a href="http://www.explorehistoricalachuacounty.com/location/liberty-hill-schoolhouse/" target="blank">Click Here</a></p>
+                    </div>
+
+
+                    <img class="modal-landmark" src="img/landmark-img/liberty-hill.png" alt=""/>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="bs-example">
+    <div id="shady-grove" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">Shady Grove Primitive Baptist Church</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-description">
+                        <p>Shady Grove Primitive Baptist Church is a landmark in Porters Quarters, one of
+                            Gainesville’s oldest and most historic African-American neighborhoods.</p>
+                        <p>For more info, <a href="http://www.explorehistoricalachuacounty.com/location/shady-grove-primitive-baptist-church-and-porters-quarters/" target="blank">Click Here</a></p>
+                    </div>
+
+
+                    <img class="modal-landmark" src="img/landmark-img/shady-grove.png" alt=""/>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="bs-example">
+    <div id="pleasant" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">Pleasant Street Historic District</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-description">
+                        <p>Mount Pleasant Methodist Episcopal Church was founded on July 16, 1867, with the Reverend
+                            Isaac Davis serving as the first pastor. The Board of Trustees of the oldest black
+                            congregation in Gainesville purchased the lot on which the present church still stands
+                            for $160 from Charles W. Brush. </p>
+                        <p>For more info, <a href="http://www.explorehistoricalachuacounty.com/location/mt-pleasant-united-methodist-church/" target="blank">Click Here</a></p>
+                    </div>
+
+
+                    <img class="modal-landmark" src="img/landmark-img/pleasant-street.png" alt=""/>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
     </section>
 
         );
