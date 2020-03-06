@@ -4,9 +4,30 @@ import "../css/contact.css";
 
 var hiddenStyle = { display: 'none'};
 
-function validate() { alert("not overwriiten");};
+function validate() { 
+    alert("not overwriiten");
+};
+
+
 
 class ContactPage extends React.Component {
+
+
+    constructor (props) {
+        super(props);
+        this.state = {
+          firstName: '',
+          lastName:'',  
+          imputEmail: '',
+          inputMessage: ''
+        }
+
+        //Binding submit event with constructor
+
+        this.validate = validate;
+
+      }
+    
 
     componentDidMount() {
         var field1 = document.getElementById("firstName");
@@ -175,7 +196,7 @@ class ContactPage extends React.Component {
 
                                             </li>
                                             <li>
-                                                <input type="submit" name="contact_submit" value="Send Message" onClick={validate} id="contact_submit" class="btn learn-button text-white"/>
+                                                <input type="submit" name="contact_submit" value="Send Message" onClick={this.validate} id="contact_submit" class="btn learn-button text-white"/>
                                             </li>
                                             <li style={hiddenStyle}>
                                                 <label htmlFor="userComment">Comment </label>
