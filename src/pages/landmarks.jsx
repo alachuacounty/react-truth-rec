@@ -6,8 +6,11 @@ import quinnJones from "../img/landmark-img/quinn-jones.png";
 import libertyHill from "../img/landmark-img/liberty-hill.png";
 import shadyGrove from "../img/landmark-img/shady-grove.png";
 import pleasantStreet from "../img/landmark-img/pleasant-street.png";
+//import "../css/modal.css";
 import '../css/TruthRec.css';
+import "../css/unique-modal.css";
 import "../css/landmarks.css";
+
 
 var hiddenStyle = {display : 'none'};
 
@@ -171,8 +174,9 @@ class LandmarksPage extends React.Component {
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     <h4 class="modal-title">Newberry Lynching Marker</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
                 </div>
                 <div class="modal-body">
                     <div class="modal-description">
@@ -180,7 +184,7 @@ class LandmarksPage extends React.Component {
                             1916.</p>
                     </div>
 
-                    <img class="modal-landmark" src="img/landmark-img/Newberry-Lynching-Marker.jpg" alt="Newberry Lynching Marker"/>
+                    <img class="modal-landmark" src={newberryMarker} alt="Newberry Lynching Marker"/>
 
                 </div>
             </div>
@@ -195,8 +199,9 @@ class LandmarksPage extends React.Component {
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
+                   <h4 class="modal-title">Josiah T. Walls</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title">Josiah T. Walls</h4>
+
                 </div>
                 <div class="modal-body">
                     <div class="modal-description">
@@ -206,7 +211,7 @@ class LandmarksPage extends React.Component {
                         <p>For more info, <a href="http://www.explorehistoricalachuacounty.com/location/josiah-t-walls/" target="blank">Click Here</a></p>
                     </div>
 
-                    <img class="modal-landmark" src="img/landmark-img/walls.png" alt=""/>
+                    <img class="modal-landmark" src={wallsSign} alt=""/>
 
 
                 </div>
@@ -220,8 +225,9 @@ class LandmarksPage extends React.Component {
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
+                <h4 class="modal-title">Serenola Plantation</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title">Serenola Plantation</h4>
+
                 </div>
                 <div class="modal-body">
                     <div class="modal-description">
@@ -231,7 +237,7 @@ class LandmarksPage extends React.Component {
                             plantation, where cotton, sugar cane, and corn were grown. </p>
                         <p>For more info, <a href="http://www.explorehistoricalachuacounty.com/location/serenola-plantation-historical-marker/" target="blank">Click Here</a></p>
                     </div>
-                    <img class="modal-landmark" src="img/landmark-img/serenola.png" alt=""/>
+                    <img class="modal-landmark" src={serenolaPlantation} alt=""/>
                 </div>
             </div>
         </div>
@@ -244,8 +250,9 @@ class LandmarksPage extends React.Component {
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
+                <h4 class="modal-title">A. Quinn Jones House</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title">A. Quinn Jones House</h4>
+
                 </div>
                 <div class="modal-body">
                     <div class="modal-description">
@@ -255,7 +262,7 @@ class LandmarksPage extends React.Component {
                     </div>
 
 
-                    <img class="modal-landmark" src="img/landmark-img/quinn-jones.png" alt=""/>
+                    <img class="modal-landmark" src={quinnJones} alt=""/>
 
 
                 </div>
@@ -273,8 +280,9 @@ class LandmarksPage extends React.Component {
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
+                <h4 class="modal-title">Liberty Hill School House</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title">Liberty Hill School House</h4>
+
                 </div>
                 <div class="modal-body">
                     <div class="modal-description">
@@ -286,7 +294,7 @@ class LandmarksPage extends React.Component {
                     </div>
 
 
-                    <img class="modal-landmark" src="img/landmark-img/liberty-hill.png" alt=""/>
+                    <img class="modal-landmark" src={libertyHill} alt=""/>
 
 
                 </div>
@@ -301,8 +309,9 @@ class LandmarksPage extends React.Component {
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
+                <h4 class="modal-title">Shady Grove Primitive Baptist Church</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title">Shady Grove Primitive Baptist Church</h4>
+
                 </div>
                 <div class="modal-body">
                     <div class="modal-description">
@@ -312,7 +321,7 @@ class LandmarksPage extends React.Component {
                     </div>
 
 
-                    <img class="modal-landmark" src="img/landmark-img/shady-grove.png" alt=""/>
+                    <img class="modal-landmark" src={shadyGrove} alt=""/>
 
 
                 </div>
@@ -328,8 +337,9 @@ class LandmarksPage extends React.Component {
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
+                <h4 class="modal-title">Pleasant Street Historic District</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title">Pleasant Street Historic District</h4>
+
                 </div>
                 <div class="modal-body">
                     <div class="modal-description">
@@ -341,7 +351,7 @@ class LandmarksPage extends React.Component {
                     </div>
 
 
-                    <img class="modal-landmark" src="img/landmark-img/pleasant-street.png" alt=""/>
+                    <img class="modal-landmark" src={pleasantStreet} alt=""/>
 
 
                 </div>
