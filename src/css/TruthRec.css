@@ -175,8 +175,10 @@ ul.modal-children li a{
 }
 ul li a {
     color: #fff;
+}
 
-
+a:hover{
+    color: #9F895d;
 }
 .menu{
     padding-right: 30px;
