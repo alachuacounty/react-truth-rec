@@ -9,6 +9,7 @@ import ContactPage from "./pages/contact";
 import ResourcesPage from "./pages/resources";
 import LandmarksPage from "./pages/landmarks";
 import TimelinePage from "./pages/timeline";
+import MediaPage from "./pages/media";
 
 
 
@@ -36,7 +37,8 @@ function App() {
                   {title:'Media', link:'/media'},//9
                   {title:'Documents', link:'/documents'},//10
                   {title:'Landmarks', link:'/landmarks'},//11
-                  {title:'Links', link:'/links'}//12
+                  {title:'Links', link:'/links'},//12
+                  {title:'Media Gallery', link:'/media'}//13
                 ];
 
   return (
@@ -51,6 +53,7 @@ function App() {
       <Route exact path="/contact" component={ContactPage} />
       <Route exact path="/about" component={AboutPage} /><Route exact path="/landmarks" component={LandmarksPage} />
       <Route exact path="/resources" render={(props) => <ResourcesPage {...props} links={navLinks} />} />
+      <Route exact path="/media" component={MediaPage} />
       <Route exact path="/landmarks" component={LandmarksPage} />
       <Route exact path="/timeline" component={TimelinePage} />
       </Switch>
