@@ -42,7 +42,7 @@ class MainPage extends React.Component {
                                   <img class="img1" src={img1} alt=""/>
                             
                               <div class="span-text">
-                                  <div class="text">
+                                  <div class="explore-text">
                                       <p>Resources</p>
                                   </div>
                             </div>
@@ -54,7 +54,7 @@ class MainPage extends React.Component {
                                   <img class="img2" src={img2} alt=""/>
                               
                               <div class="span-text">
-                                  <div class="text">
+                                  <div class="explore-text">
                                       <p>Timeline</p>
                                   </div>
                             </div>
@@ -66,7 +66,7 @@ class MainPage extends React.Component {
                                   <img class="img3" src={img3} alt=""/>
                             
                               <div class="span-text">
-                                  <div class="text">
+                                  <div class="explore-text">
                                       <p>Events</p>
                                   </div>
                             </div>
