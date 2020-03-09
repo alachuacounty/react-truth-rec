@@ -334,6 +334,7 @@ a img {
         display: grid;
         margin-top: 50px;
         grid-gap: 0;
+        gap: 3%;
         -ms-grid-columns: 2% 0 1fr 0 2%;
         grid-template-columns: 2% 1fr 2%;
         -ms-grid-rows: 1fr 0 1fr 0 1fr;
