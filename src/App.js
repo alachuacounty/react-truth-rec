@@ -10,6 +10,7 @@ import ResourcesPage from "./pages/resources";
 import LandmarksPage from "./pages/landmarks";
 import TimelinePage from "./pages/timeline";
 import MediaPage from "./pages/media";
+import LinksPage from "./pages/links";
 
 
 
@@ -55,6 +56,7 @@ function App() {
       <Route exact path="/resources" render={(props) => <ResourcesPage {...props} links={navLinks} />} />
       <Route exact path="/media" component={MediaPage} />
       <Route exact path="/landmarks" component={LandmarksPage} />
+      <Route exact path="/links" component={LinksPage} />
       <Route exact path="/timeline" component={TimelinePage} />
       </Switch>
     </Router>
