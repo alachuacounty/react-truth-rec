@@ -18,16 +18,35 @@ class ContactPage extends React.Component {
         this.state = {
           firstName: '',
           lastName:'',  
-          imputEmail: '',
-          inputMessage: ''
+          inputEmail: '',
+          inputMessage: '',
+          userComment:'',
+          fnameValid: false,
+          lnameValid:false,
+          emailValid:false,
+          formValid:false
         }
 
         //Binding submit event with constructor
 
-        this.validate = validate;
+        //this.validate = this.handleUserInput;
+
 
       }
     
+      handleUserInput = (e) => {
+        const name = e.target.name;
+        const value = e.target.value;
+        this.setState({[name]: value},
+            () => { this.validateField(name, value) } );
+      }
+
+
+      validateField(){
+          
+      }
+
+
 
     componentDidMount() {
         var field1 = document.getElementById("firstName");
