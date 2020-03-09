@@ -770,6 +770,10 @@ a:hover{
     padding: 15px
 }
 
+.modal-description{
+    margin-right: 2%;;
+}
+
 .modal-footer {
     padding: 15px;
     text-align: right;
