@@ -38,9 +38,8 @@ function App() {
                   {title:'Media', link:'/media'},//9
                   {title:'Documents', link:'/documents'},//10
                   {title:'Landmarks', link:'/landmarks'},//11
-                  {title:'Documents', link:'/documents'},//12
-                  {title:'Links', link:'/links'},//13
-                  {title:'Media Gallery', link:'/media'}//14
+                  {title:'Links', link:'/links'},//12
+                  {title:'Media Gallery', link:'/media'}//13
                 ];
 
   return (
@@ -57,8 +56,6 @@ function App() {
       <Route exact path="/resources" render={(props) => <ResourcesPage {...props} links={navLinks} />} />
       <Route exact path="/media" component={MediaPage} />
       <Route exact path="/landmarks" component={LandmarksPage} />
-      <Route exact path="/documents" component={DocumentsPage} />
-      <Route exact path="/links" component={LinksPage} />
       <Route exact path="/timeline" component={TimelinePage} />
       </Switch>
     </Router>
