@@ -55,13 +55,9 @@ body {
 
 /* CSS FOR NAVBAR AND SUBNAV BAR*/
 .nav {
-
     -ms-grid-row: 1;
-
     -ms-grid-column: 1;
-
     display: -ms-grid;
-
     display: grid;    
     grid-area: nav;
     -ms-grid-columns: 1fr 250px 5fr;
@@ -138,7 +134,7 @@ ul.element-children{
     -ms-grid-row:1;
     -ms-grid-column:4;
     grid-area:snav-ul;
-    margin-top: 10px;
+    margin-top: auto;
     margin-bottom: auto;
 }
 
