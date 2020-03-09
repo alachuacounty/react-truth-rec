@@ -103,12 +103,18 @@ a .logo-img {
     font-size: 24px;
     margin-top: auto;
     margin-bottom: auto;
+
 }
 .element-children{
    -ms-grid-row: 1;
    -ms-grid-column: 2;
    grid-area: mnav-ul;
 }
+
+ul.element-children{
+    margin-bottom: 0!important;
+}
+
 .hamburger-menu {
     display: none;
     grid-area: ham-menu;
