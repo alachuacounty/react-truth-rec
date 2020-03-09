@@ -57,6 +57,7 @@ function App() {
       <Route exact path="/media" component={MediaPage} />
       <Route exact path="/landmarks" component={LandmarksPage} />
       <Route exact path="/timeline" component={TimelinePage} />
+      <Route exact path="/links" component={LinksPage} />
       </Switch>
     </Router>
     <Footer footertext="&copy; Alachua County Truth and Reconciliation"/>
