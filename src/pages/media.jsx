@@ -124,10 +124,10 @@ return(
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
+                    <h4 class="modal-title">In the Shadows of Plantations</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                        <h4 class="modal-title">In the Shadows of Plantations</h4>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body-2">
 
                         <iframe width="100%" height="400px" src="https://www.youtube.com/embed/AMjWEjQy7yI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
@@ -142,10 +142,11 @@ return(
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
+                    <h4 class="modal-title">Bo Diddley Memorial 2008</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                        <h4 class="modal-title">Bo Diddley Memorial 2008</h4>
+                       
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body-2">
 
                         <iframe width="100%" height="400px" src="https://www.youtube.com/embed/uQoD2sS5S6Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
@@ -160,10 +161,10 @@ return(
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
+                    <h4 class="modal-title">Negro Baseball League Players visit Alachua County</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                        <h4 class="modal-title">Negro Baseball League Players visit Alachua County</h4>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body-2">
 
                         <iframe width="100%" height="400px" src="https://www.youtube.com/embed/7BppYvSvLrA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
@@ -179,10 +180,10 @@ return(
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
+                    <h4 class="modal-title">Alachua County Talks: Verdell Washington Robinson</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                        <h4 class="modal-title">Alachua County Talks: Verdell Washington Robinson</h4>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body-2">
 
                         <iframe width="100%" height="400px" src="https://www.youtube.com/embed/9FtJSvUeIPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
@@ -199,10 +200,10 @@ return(
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
+                    <h4 class="modal-title">Cotton Club Museum and Cultural Center</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                        <h4 class="modal-title">Cotton Club Museum and Cultural Center</h4>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body-2">
 
                         <iframe width="100%" height="400px" src="https://player.vimeo.com/video/9700903" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
