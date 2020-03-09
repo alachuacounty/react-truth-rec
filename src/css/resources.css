@@ -26,7 +26,7 @@
     grid-template-columns: 45% 45%;
     -ms-grid-rows: 45% 5% 45%;
     grid-template-rows: 45% 45%;
-    gap: 5%;
+    gap: 7%;
         grid-template-areas: "res1 res2" "res3 res4";
 
 }
