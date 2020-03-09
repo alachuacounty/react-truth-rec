@@ -123,8 +123,8 @@ h1, h2{
 .map-card,
 .wallB,
 .newnansvile{
-    -webkit-box-shadow: 3px 3px 3px lightgrey;
-            box-shadow: 3px 3px 3px lightgrey;
+    -webkit-box-shadow: 4px 4px 4px lightgrey;
+            box-shadow: 4px 4px 4px lightgrey;
     border-radius: 10px;
     -webkit-transition: all .1;
     transition: all .1;
@@ -133,44 +133,44 @@ h1, h2{
 
 /* THE CODE FOR THE HOVER ON CARDS*/
 .walls-sign:hover{
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(.9);
+            transform: scale(.9);
 }
 .serenola:hover{
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(.9);
+            transform: scale(.9);
 }
 .quinn:hover{
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(.9);
+            transform: scale(.9);
 }
 .liberty:hover{
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(.9);
+            transform: scale(.9);
 }
 .shady-grove:hover{
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(.9);
+            transform: scale(.9);
 }
 .pleasant:hover{
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(.9);
+            transform: scale(.9);
 }
 .map-card:hover{
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(.9);
+            transform: scale(.9);
 }
 .wallB:hover{
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(.9);
+            transform: scale(.9);
 }
 .newnansvile:hover{
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(.9);
+            transform: scale(.9);
 }
 .map-img:hover{
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(.9);
+            transform: scale(.9);
 }
 /*END OF HOVER ON THE CARDS*/
 

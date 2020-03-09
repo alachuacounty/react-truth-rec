@@ -706,6 +706,7 @@ a:hover{
 }
 
 .modal-content {
+    width: 740px;
     position: relative;
     background-color: #fff;
     -webkit-background-clip: padding-box;
@@ -718,7 +719,7 @@ a:hover{
     box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
-    width: 100%; /* Could be more or less, depending on screen size */
+    /* Could be more or less, depending on screen size */
       
 }
 
