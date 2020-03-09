@@ -620,6 +620,7 @@ a:hover{
     -ms-grid-column:1;
     display: -ms-grid;
     display: grid;
+    text-align: center;
     grid-area:footer;
     -ms-grid-columns: 1fr 5fr 1fr;
     grid-template-columns: 1fr 5fr 1fr;
