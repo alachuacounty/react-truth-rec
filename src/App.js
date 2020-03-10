@@ -11,10 +11,6 @@ import LandmarksPage from "./pages/landmarks";
 import TimelinePage from "./pages/timeline";
 import MediaPage from "./pages/media";
 import LinksPage from "./pages/links";
-
-
-
-
 //Import all needed Component for this tutorial
 import {
   BrowserRouter as Router,
@@ -23,7 +19,6 @@ import {
   Link,
   Redirect
 } from "react-router-dom";
-
 function App() {
   const navLinks=[
                   {title:'About', link: '/about'}, //0
@@ -41,15 +36,13 @@ function App() {
                   {title:'Links', link:'/links'},//12
                   {title:'Media Gallery', link:'/media'}//13
                 ];
-
   return (
     <div class="grid-container">
     <Navigation links={navLinks}></Navigation>
     <Modal links={navLinks}></Modal>
     <Router>
       <Switch>
-      <Route exact path="/"  render={(props) => <MainPage {...props} links={navLinks} />}/>
-    
+      <Route exact path="/"  render={(props) => <MainPage {...props} links={navLinks} />}/>    
       <Route exact path="/events" component={EventsPage} />
       <Route exact path="/contact" component={ContactPage} />
       <Route exact path="/about" component={AboutPage} /><Route exact path="/landmarks" component={LandmarksPage} />
@@ -64,5 +57,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
