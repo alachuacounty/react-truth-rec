@@ -11,6 +11,7 @@ import LandmarksPage from "./pages/landmarks";
 import TimelinePage from "./pages/timeline";
 import MediaPage from "./pages/media";
 import LinksPage from "./pages/links";
+import DocumentsPage from "./pages/documents";
 //Import all needed Component for this tutorial
 import {
   BrowserRouter as Router,
@@ -33,8 +34,8 @@ function App() {
                   {title:'Media', link:'/media'},//9
                   {title:'Documents', link:'/documents'},//10
                   {title:'Landmarks', link:'/landmarks'},//11
-                  {title:'Links', link:'/links'},//12
-                  {title:'Media Gallery', link:'/media'}//13
+                  {title:'Media Gallery', link:'/media'},//12
+                  {title:'Links', link:'/links'}//13
                 ];
   return (
     <div class="grid-container">
@@ -51,6 +52,7 @@ function App() {
       <Route exact path="/landmarks" component={LandmarksPage} />
       <Route exact path="/timeline" component={TimelinePage} />
       <Route exact path="/links" component={LinksPage} />
+      <Route exact path="/documents" component={DocumentsPage} />
       </Switch>
     </Router>
     <Footer footertext="&copy; Alachua County Truth and Reconciliation"/>

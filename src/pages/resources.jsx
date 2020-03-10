@@ -82,7 +82,7 @@ return(
                     </div>
                  
                     <div class="links">
-                        <a href={this.props.links[12].link}>
+                        <a href={this.props.links[13].link}>
                             <img class="resource" src={linksImg} alt="Image-left" />
                         
                         <div class="overlay">
@@ -91,7 +91,7 @@ return(
 
                         <div class="span-text">
                                 <div class="text">
-                                    <p>{this.props.links[12].title}</p>
+                                    <p>{this.props.links[13].title}</p>
                                 </div>
                             </div>
 
