@@ -477,6 +477,12 @@ h1, h2{
 /* video cards css starts here*/
 
 
+@media screen and (max-width: 480px) {
+#landmarks-main{
+    grid-template-columns: 8% 1fr 8%;
+}
+}
+
 .resource {
     width: 100%;
 }
