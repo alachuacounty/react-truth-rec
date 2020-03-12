@@ -11,7 +11,7 @@ render(){
     return(
 
 
-<section id="main-section" class="main-section">
+<section id="documents-main" >
             <section id="intro">
                 <h1>Documents</h1>
                     

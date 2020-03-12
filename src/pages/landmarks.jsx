@@ -22,7 +22,7 @@ class LandmarksPage extends React.Component {
         return(
 
 
-<section class="main" id="main-section">
+<section id="landmarks-main">
 
             <div class="title">
                 <h1>Landmarks</h1>

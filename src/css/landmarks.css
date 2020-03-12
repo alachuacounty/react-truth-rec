@@ -3,7 +3,7 @@ h1, h2{
     font-weight: bold;
 }
 
-#main-section{
+#landmarks-main{
     grid-area: main-section;
     display: -ms-grid;
     display: grid;

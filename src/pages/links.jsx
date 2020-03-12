@@ -10,7 +10,7 @@ class LinksPage extends React.Component{
 return(
 
 
-<div class="main-content link-main" id="main">
+<div id="links-main">
         <div class="link-intro">
         <h1 class="title">Links</h1>
 

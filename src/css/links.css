@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 
-#main {
+#links-main{
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     grid-area: main-section;

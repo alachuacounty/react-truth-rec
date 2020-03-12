@@ -14,7 +14,7 @@ class MediaPage extends React.Component{
 render(){
 
 return(
-<section id="main" class="main">
+<section id="media-main" class="main">
             <div class="grid-item intro">
                 <h1>Historical Media Gallery</h1>
             </div>

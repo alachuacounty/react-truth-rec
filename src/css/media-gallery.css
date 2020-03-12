@@ -31,7 +31,7 @@ body {
 /*HAMBURGER ENDS HERE */
 /* video cards css starts here*/
 
-#main{
+#media-main{
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 15% 1fr 15%;
