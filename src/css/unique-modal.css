@@ -22,3 +22,23 @@
     width: 100%;
 }
 
+@media screen and (max-width:980px){
+.modal-content {
+  width:100%;
+}
+
+
+
+.modal-body{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+    "modal-description" "modal-landmark";
+}
+
+
+
+}
