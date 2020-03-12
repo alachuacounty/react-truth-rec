@@ -5,18 +5,10 @@ body {
     margin: 0;
 }
 
-.grid-container {
-    display: -ms-grid;
-    display: grid;
-        grid-template-areas:
-        "nav"
-        "main"
-        "footer"
-}
 #main {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
-    grid-area: main;
+    grid-area: main-section;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 25% 1fr 25%;
@@ -28,6 +20,14 @@ body {
     -ms-grid-row:1;
     -ms-grid-column:2;
     grid-area:content;
+}
+
+.link-intro{
+    -ms-grid-column:2;
+    -ms-grid-column-span: 1;
+    grid-area: content;
+    grid-column:2/3;
+    padding-top:3%;
 }
 /* CSS FOR NAVBAR AND SUBNAV BAR*/
 

@@ -1,6 +1,6 @@
 import React from "react";
 import '../css/TruthRec.css';
-//import "../css/links.css";
+import "../css/links.css";
 
 class LinksPage extends React.Component{
 
@@ -10,8 +10,8 @@ class LinksPage extends React.Component{
 return(
 
 
-<div class="main-content link-main">
-        <div class="intro">
+<div class="main-content link-main" id="main">
+        <div class="link-intro">
         <h1 class="title">Links</h1>
 
 <hr></hr>
