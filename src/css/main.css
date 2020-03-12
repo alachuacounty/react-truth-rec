@@ -360,12 +360,21 @@ a img {
 
 }
 
-
+/**************************************/
+    /*MOBILE STYLES MEDIA QUERY*/   
+/**************************************/
 @media screen and (max-width: 480px) {
 
     
     #truth-rec-info{
         font-size: 16px;
+        grid-template-columns: 1fr;
+        margin-top: 3%!important;
+    }
+
+    #truth-rec-info h2{
+        font-size: 34px;
+        line-height: 3rem;
     }
     .truth-info-head{
         -ms-grid-row: 1;
@@ -373,16 +382,22 @@ a img {
         grid-area: truth-info-head;
         -ms-grid-column-align: center;
             justify-self: center;
+            padding: 0 1rem;
+            text-align: center;
     }
     .truth-info-text{
         -ms-grid-row: 2;
         -ms-grid-column: 2;
         grid-area: truth-info-text;
         margin: 0;
-        padding: 1em;
+        padding: 1.5em;
         padding-top: 0;
         padding-bottom: 0;
-        line-height: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .explore{
+        text-align: center;
     }
     #img-quote {
         -ms-grid-columns: 5% 1fr 5%;
@@ -396,6 +411,13 @@ a img {
         line-height: 1.5em;
         margin-top: 40px;
         border-top: 1px #9F895D solid;
+    }
+
+    .history-text p{
+        line-height:2rem;
+    }
+    .franklin{
+        justify-self: center;
     }
 
     .content-text1,
