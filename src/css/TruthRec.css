@@ -820,13 +820,7 @@ a:hover{
         max-width: 600px;
         margin: 30px auto;
     }
-.modal-body{
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-    "modal-description"
-    "modal-landmark"
-}
+
     
 }
 

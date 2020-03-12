@@ -8,7 +8,7 @@ import shadyGrove from "../img/landmark-img/shady-grove.png";
 import pleasantStreet from "../img/landmark-img/pleasant-street.png";
 //import "../css/modal.css";
 import '../css/TruthRec.css';
-import "../css/unique-modal.css";
+import '../css/unique-modal.css'
 import "../css/landmarks.css";
 
 
