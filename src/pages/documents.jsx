@@ -1,7 +1,7 @@
 import React from 'react';
 import "../css/TruthRec.css";
 import Doc1 from '../img/doc.png';
-//import "../css/documents.css";
+import "../css/documents.css";
 
 class DocumentsPage extends React.Component{
 
@@ -11,7 +11,7 @@ render(){
     return(
 
 
-<section id="main" class="main">
+<section id="main-section" class="main-section">
             <section id="intro">
                 <h1>Documents</h1>
                     
