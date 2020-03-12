@@ -50,7 +50,7 @@ class MainPage extends React.Component {
                               </div>
 
                               <div class="img-center">
-                              <a href={this.props.links[6].link}>
+                              <a href={this.props.links[7].link}>
                                   <img class="img2" src={img2} alt=""/>
                               
                               <div class="span-text">
