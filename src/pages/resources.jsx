@@ -11,7 +11,7 @@ render(){
 
 return(
 <section id="resources-section" class="resources-main">
-        <div class="resources-meat">
+        <div class="resources-content">
             <div class="grid-item title">
                 <h1 class="title-resources">Resources</h1>
             </div>

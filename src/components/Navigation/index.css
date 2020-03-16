@@ -49,11 +49,9 @@ a .logo-img {
    -ms-grid-row: 1;
    -ms-grid-column: 2;
    grid-area: mnav-ul;
+   margin-top: 24px!important;
 }
 
-.element-children ul{
-    margin-top: 24px!important;
-}
 .hamburger-menu {
     display: none;
     grid-area: ham-menu;

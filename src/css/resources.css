@@ -9,7 +9,7 @@
     margin: 40px 0;
 }
 
-.resources-meat{
+.resources-content{
     display:-webkit-box;
     display:-moz-box;
     display:-ms-flexbox;
@@ -44,25 +44,19 @@
 
 
 .media{
-
     -ms-grid-row: 1;
-
     -ms-grid-column: 1;
 
     grid-area: res1;
 }
 .documents{
-
      -ms-grid-row: 1;
-
      -ms-grid-column: 3;
 
      grid-area: res2;
 }
 .landmarks{
-
       -ms-grid-row: 3;
-
       -ms-grid-column: 1;
 
       grid-area: res3;
@@ -70,6 +64,7 @@
 .links{
     -ms-grid-row: 3;
     -ms-grid-column: 3;
+
     grid-area: res4;
 }
 
@@ -78,9 +73,6 @@
 }
 
 /* code for the overlays start here*/
-
-
-
 .span-text{
     position: absolute;
     height: 100%;  
@@ -88,7 +80,6 @@
     top: -14px;   
     left: 0;
 }
-
 .text{
    position: absolute;
    top:50%;
@@ -97,15 +88,11 @@
            transform: translateY(-50%) translateX(-50%);
    
 }
-
 .text p{
     color: white;
     border-bottom: solid 3px #9F895D;
     font-size: 35px;
 }
-
-
-
 .description-text{
     position: absolute;
     height: 100%;  
@@ -220,9 +207,7 @@ p{
      */
      @media screen and (max-width:980px){
         .image-grid {
-            
             -ms-grid-rows: 1fr 0% 1fr 0% 1fr 0% 1fr;
-            
             grid-template-rows: 1fr 1fr 1fr 1fr;
             -ms-grid-columns: 15% 0% 1fr 0% 15%;
             grid-template-columns: 15% 1fr 15%;
@@ -233,14 +218,10 @@ p{
                -moz-box-pack: center;
                 -ms-flex-pack: center;
                     justify-content: center;
-
         }
-
-    
         .media{
 
             margin: 0;
-            
         }
         .documents{
 
