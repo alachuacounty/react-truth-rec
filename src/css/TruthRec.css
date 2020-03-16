@@ -1,14 +1,12 @@
 /***************************/
 /*THESE ARE BASE STYLES FOR ALL THE SITE*/
 /***************************/
-
-/* IE styles */
-
-$background-secondary: #9F895d;
-
 body{
     display: -ms-flexbox;
     -ms-flex-direction: column;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
 }
 p {
     display: block;
@@ -41,22 +39,13 @@ h2 {
         -ms-flex-direction: column;
             flex-direction: column;
 }
-
 .main{
     -webkit-box-flex:1;
        -moz-box-flex:1;
         -ms-flex-positive:1;
             flex-grow:1;
 }
-
-
-body {
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 16px;
-    margin: 0;
-}
 .elements .menu , .subnav ul li{
-
     font-size: 1.3rem;
 }
 .grid-container {
@@ -72,7 +61,6 @@ body {
         "footer";
     min-height:100vh;
     /*height:100vh;*/
-
 }
 
 /* CSS FOR NAVBAR AND SUBNAV BAR*/
@@ -128,11 +116,9 @@ a .logo-img {
    -ms-grid-column: 2;
    grid-area: mnav-ul;
 }
-
 ul.element-children{
     margin-bottom: 0!important;
 }
-
 .hamburger-menu {
     display: none;
     grid-area: ham-menu;
@@ -170,16 +156,15 @@ ul {
     list-style-type: none;
 
 }
-
 ul.modal-children{
     padding-left:120px;
 }
-
+/*
 @media screen and (max-width: 400px){
     ul.modal-children{
         padding-left:60px;
     }
-}
+}*/
 
 ul li {
     display: inline;
@@ -208,10 +193,7 @@ a:hover{
 }
 
   /* CODE FOR HAMBURGER MENU HERE*/
-  #main-section {
-    /*min-height: calc(100vh - 180px);*/
-}
-
+ 
   .hamburger-menu {
     color: white;  
     display: none;
@@ -221,7 +203,6 @@ a:hover{
         -ms-grid-row-align: center;
         align-self: center;
 }
-
 .menu_toggle {
     border-radius: 3px;
     display: block;     
@@ -403,16 +384,10 @@ a:hover{
     }
 
     .elements .menu , .subnav ul li{
-
         font-size: .9rem;
     }
-
-
 }
-
 @media screen and (max-width: 950px){
-
-
     .nav {
         -ms-grid-columns: 1fr 215px 5fr;
         grid-template-columns: 1fr 215px 5fr;
@@ -427,11 +402,7 @@ a:hover{
         -ms-grid-columns: 1fr 215px 2% 5fr;
         grid-template-columns: 1fr 215px 2% 5fr;
     }
-
-
 }
-
-
 /*
 @media screen and (max-width: 860px){
     .menu a , .subnav ul li{
@@ -472,13 +443,10 @@ a:hover{
         "nav-logo ham-menu"
         "sub-nav sub-nav"
         ;
-
     }
 
     .logo {
-
          -ms-grid-row: 1;
-
          -ms-grid-column: 2;
 
          grid-area: nav-logo;
@@ -487,21 +455,15 @@ a:hover{
          grid-row:1/2;
      }
 
-
-
     .elements {
         display: none;
     }
-
-    
     .subnav {
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
             grid-template-areas: 
         " snav-ul";
-
     }
-
     .sub-elements {
         display:-webkit-box;
         display:-moz-box;
@@ -513,63 +475,48 @@ a:hover{
            -moz-box-pack: space-evenly;
             -ms-flex-pack: space-evenly;
                 justify-content: space-evenly;
-
     }
-
     .menu a , .subnav ul li{
         padding: 8px !important;
         font-size: 1rem;
     }
-
     .sub-elements li{
         padding-right: 8px;
     }
-
     .hamburger-menu{
         display:block;
         grid-area: ham-menu;
     }
-    
 
     .logo {
         -ms-grid-row: 1;
         -ms-grid-column: 1;
 
     }
-    
 
     .hamburger-menu {
         -ms-grid-row: 1;
         -ms-grid-column: 2;
 
     }
-    
 
     .subnav {
         -ms-grid-row:2;
         -ms-grid-column:1;
         -ms-grid-column-span:2;
-
     }
-
-    
     .sub-elements {
         -ms-grid-row:1;
         -ms-grid-column:1;
-
     }
-
-
 }
 @media screen and (max-width: 860px){
-    
 
     .logo {
         -ms-grid-row: 1;
         -ms-grid-column: 1;
 
     }
-    
 
     .hamburger-menu {
         -ms-grid-row: 1;
@@ -594,10 +541,7 @@ a:hover{
 }
 
 @media screen and (max-width: 780px) {
-    .main {
-       /* grid-template-columns: 10% 1fr 10%;*/
-
-    }
+   
 }
 
 @media screen and (max-width:480px){
@@ -609,56 +553,6 @@ a:hover{
 }
 
 /******* MAIN GRID END *******/
-
-
-/************** FOOTER STYLES ************/
-
-#footer {
-    -ms-grid-row:3;
-    -ms-grid-column:1;
-    display: -ms-grid;
-    display: grid;
-    text-align: center;
-    grid-area:footer;
-    -ms-grid-columns: 1fr 5fr 1fr;
-    grid-template-columns: 1fr 5fr 1fr;
-        grid-template-areas: ". alachua-info ." ;
-    width: 100%;
-    background-color:#252525;
-    color:white;
-    min-height: 50px;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    bottom: 0;
-}
-
-.alachua-info{
-    -ms-grid-row: 1;
-    -ms-grid-column: 2;
-    grid-area: alachua-info;
-    font-size: 15px;
-    color:white;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    -ms-grid-row-align: center;
-        align-self: center;
-
-    display:block;
-    line-height: 30px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 .modal-open {
