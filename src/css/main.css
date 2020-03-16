@@ -104,6 +104,8 @@
         grid-template-areas: 
     ". tag-text .";
     grid-area:tagline;
+    color: white;
+    background-color: #9F895d;
 }
 .explore{
     -ms-grid-row: 1;
@@ -126,7 +128,7 @@
     grid-template-columns: 15% 1fr 15%;
         grid-template-areas: 
     ". images ."
-    ". history-text ."
+    ". roosevelt-quote ."
     ". quote .";
     background: #00283C;
     color: white;  
@@ -196,13 +198,21 @@
     grid-area:img-right;
 }
 
-.history-text {
+.roosevelt-quote {
     -ms-grid-row:2;
     -ms-grid-column:2;
     font-size: 18px;
     padding: 0 60px;
-    grid-area:history-text;
+    grid-area:roosevelt-quote;
+    line-height: 2.5em;
+    margin-top: 40px;
+    border-top: 1px #9F895D solid;
 }
+
+a img {
+    width: 100%;
+}
+
 
 .quote {
     -ms-grid-row: 3;
@@ -216,48 +226,14 @@
     padding: 0 60px;
     grid-area: quote;
 }
-.franklin{
+.quotee{
     -ms-grid-column-align: end;
         justify-self: end;
 }
 
 /***********************************/
-/*IMG AND QUOTE SECTION SECTION 3*/   
+/*IMG AND FDR QUOTE SECTION SECTION 3*/   
 /***********************************/
-
-
-
-
-#footer {
-    grid-area: footer;
-}
-
-
-
-.tagline {
-    color: white;
-    background-color: #9F895d;
-}
-
-
-/*CODE FOR HISTORY SECTION */
-
-
-.history-text {
-
-    line-height: 2.5em;
-
-    margin-top: 40px;
-    border-top: 1px #9F895D solid;
-
-}
-
-a img {
-    width: 100%;
-}
-
-
-
 @media screen and (max-width: 780px) {
     
     .hero {

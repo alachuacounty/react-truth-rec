@@ -73,7 +73,7 @@ class MainPage extends React.Component {
                           </a>
                           </div>
                           </div>
-                  <div class="history-text">
+                  <div class="roosevelt-quote">
 
                       <p>“We are a nation of many nationalities, many races, many religions -- bound together by a single
                           unity,
@@ -84,7 +84,7 @@ class MainPage extends React.Component {
                           Whoever seeks to set one religion against another, seeks to destroy all religion.”</p>
                   </div>
                   <div class="quote">
-                          <p class="franklin"> Franklin D. Roosevelt<br/>November 1, 1940 </p>
+                          <p class="quotee"> Franklin D. Roosevelt<br/>November 1, 1940 </p>
                   </div>
 
               </section>
