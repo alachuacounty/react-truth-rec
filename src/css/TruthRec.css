@@ -63,165 +63,10 @@ h2 {
     /*height:100vh;*/
 }
 
-/* CSS FOR NAVBAR AND SUBNAV BAR*/
-.nav {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    display: -ms-grid;
-    display: grid;    
-    grid-area: nav;
-    -ms-grid-columns: 1fr 250px 5fr;
-    grid-template-columns: 1fr 250px 5fr;
-    -ms-grid-rows: 2fr 1fr;
-    grid-template-rows: 2fr 1fr;
-        grid-template-areas: 
-    ". nav-logo main-nav"
-    "sub-nav sub-nav sub-nav";
-    background-color: #00283C;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-}
-.logo {
-    -ms-grid-row: 1;
-    -ms-grid-column: 2;
-    grid-area: nav-logo;
-    -ms-grid-row:1;
-    -ms-grid-row-span:2;
-    grid-row:1/3;
-}
-a .logo-img {
-    position: relative;
-    max-height: 134px;
-    display: block;
-}
-.elements {
-    -ms-grid-row:1;
-    -ms-grid-column:3;
-    display:-ms-grid;
-    display:grid;
-    grid-area:main-nav;
-    text-transform: uppercase;
-    -ms-grid-columns: 5% 1fr;
-    grid-template-columns: 5% 1fr;
-        grid-template-areas:
-    ". mnav-ul";
-    font-size: 24px;
-    margin-top: auto;
-    margin-bottom: auto;
-
-}
-.element-children{
-   -ms-grid-row: 1;
-   -ms-grid-column: 2;
-   grid-area: mnav-ul;
-}
-ul.element-children{
-    margin-bottom: 0!important;
-}
-.hamburger-menu {
-    display: none;
-    grid-area: ham-menu;
-}
-.subnav {
-    -ms-grid-row:2;
-    -ms-grid-column:1;
-    -ms-grid-column-span:3;
-    display: -ms-grid;
-    display: grid;
-    grid-area:sub-nav;
-    text-transform: uppercase;
-    -ms-grid-columns: 1fr 250px 7% 5fr;
-    grid-template-columns: 1fr 250px 7% 5fr;
-        grid-template-areas: 
-    ". . . snav-ul";
-    background-color: black;
-    border-top: 3px solid #9F895D;
-}
-.sub-elements {
-    -ms-grid-row:1;
-    -ms-grid-column:4;
-    grid-area:snav-ul;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.sub-elements li {
-    padding-right: 30px;
-}
-a {
-    text-decoration: none;
-}
-ul {
-    list-style-type: none;
-
-}
-ul.modal-children{
-    padding-left:120px;
-}
-/*
-@media screen and (max-width: 400px){
-    ul.modal-children{
-        padding-left:60px;
-    }
-}*/
-
-ul li {
-    display: inline;
-}
-
-ul.modal-children li {
-    display: inline;
-    height:45px;
-}
-
-ul.modal-children li a{
-    border-bottom: 1px solid grey;
-}
-ul li a {
-    color: #fff;
-}
-
 a:hover{
     color: #9F895d;
 }
-.menu{
-    padding-right: 30px;
-}
-.card {
-    width: 100%;
-}
-
   /* CODE FOR HAMBURGER MENU HERE*/
- 
-  .hamburger-menu {
-    color: white;  
-    display: none;
-    -ms-grid-column-align: end;
-        justify-self: end;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-}
-.menu_toggle {
-    border-radius: 3px;
-    display: block;     
-    margin-bottom: 0;
-}
-
-@-webkit-keyframes myModal {
-    from{opacity: 0}
-    to{opacity:1}
-   
-}
-
-@keyframes myModal {
-    from{opacity: 0}
-    to{opacity:1}
-   
-}
-
-
 #modal{
     background-color:#00283C;
     display: none;
@@ -325,7 +170,6 @@ a:hover{
         font-size: 1.1rem;
     }
 }
-
 @media screen and (max-width: 1230px){
 
     .menu{
@@ -336,7 +180,6 @@ a:hover{
     }
 }
 @media screen and (max-width: 1175px){
-
     .menu{
         padding-right: 15px;
     }
@@ -355,11 +198,7 @@ a:hover{
     .elements .menu , .subnav ul li{
         font-size: 1rem;
     }
-
 }
-
-
-
 
 @media screen and (max-width: 1050px) {
 

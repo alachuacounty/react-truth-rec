@@ -1,12 +1,8 @@
 /* CSS FOR NAVBAR AND SUBNAV BAR*/
 .nav {
-
     -ms-grid-row: 1;
-
     -ms-grid-column: 1;
-
-    display: -ms-grid;
-
+     display: -ms-grid;
     display: grid;    
     grid-area: nav;
     -ms-grid-columns: 1fr 250px 5fr;
@@ -53,6 +49,10 @@ a .logo-img {
    -ms-grid-row: 1;
    -ms-grid-column: 2;
    grid-area: mnav-ul;
+}
+
+.element-children ul{
+    margin-top: 24px!important;
 }
 .hamburger-menu {
     display: none;
@@ -162,8 +162,6 @@ ul li a {
     to{opacity:1}
    
 }
-
-
 #modal{
     background-color:#00283C;
     display: none;
