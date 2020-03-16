@@ -3,14 +3,12 @@
 h3{
     font-size: 24px;
 }
-
-
 .main-about{
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 30% 1fr 30%;
     grid-template-columns: 30% 1fr 30%;
-        grid-template-areas: ". title ." ". meat .";
+        grid-template-areas: ". title ." ". about-content .";
         margin-top:50px;
 }
 
@@ -20,10 +18,10 @@ h3{
     grid-area:title;
 }
 
-.meat-content{
+.about-content{
     -ms-grid-row: 2;
     -ms-grid-column: 2;
-    grid-area: meat;
+    grid-area: about-content;
 }
 
 .motions{

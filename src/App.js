@@ -2,7 +2,7 @@ import React from 'react';
 import Navigation from "./components/Navigation";
 import Modal from "./components/Modal"
 import Footer from "./components/Footer";
-import MainPage from "./pages";
+import MainPage from "./pages/index";
 import AboutPage from "./pages/about";
 import EventsPage from "./pages/events";
 import ContactPage from "./pages/contact";
