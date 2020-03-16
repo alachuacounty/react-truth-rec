@@ -234,17 +234,18 @@ a img {
 /***********************************/
 /*IMG AND FDR QUOTE SECTION SECTION 3*/   
 /***********************************/
+
+/***********************************/
+        /*TABLET BREAKPOINT*/   
+/***********************************/
+
 @media screen and (max-width: 780px) {
-    
-    .hero {
-        
+    .hero { 
         -ms-grid-columns: 1fr;
-        
         grid-template-columns: 1fr;
             grid-template-areas:
             "hero-img";
     }
-
     .images {
         display: -ms-grid;
         display: grid;
@@ -261,44 +262,32 @@ a img {
         ". img-right .";
         padding: 0;
     }
-    
     .hero-img {
         -ms-grid-row:1;
         -ms-grid-column:1;
     }
-
     .img-left {
         -ms-grid-row:1;
         -ms-grid-column:3;
     }
-
     .img-center {
         -ms-grid-row:3;
         -ms-grid-column:3;
     }
-
     .img-right {
         -ms-grid-row:5;
         -ms-grid-column:3;
     }
-
-
 }
+/***********************************/
+        /*TABLET BREAKPOINT*/   
+/***********************************/
 
 
-/* TABLET MEDIA QUERY */
+/***********************************/
+        /*MOBILE BREAKPOINT*/   
+/***********************************/
 
-/*
-@media screen and (max-width: 720px) {
-
-    .hero {
-        -ms-grid-columns: 12% auto 12%;
-        grid-template-columns: auto;
-    }
-
-    
-}
-*/
 
 @media screen and (max-width: 481px) {
     .images {
@@ -336,8 +325,6 @@ a img {
     /*MOBILE STYLES MEDIA QUERY*/   
 /**************************************/
 @media screen and (max-width: 480px) {
-
-    
     #truth-rec-info{
         font-size: 16px;
         grid-template-columns: 1fr;
@@ -367,7 +354,6 @@ a img {
         padding-bottom: 0;
         line-height: 2rem;
     }
-
     .explore{
         text-align: center;
     }
@@ -375,30 +361,22 @@ a img {
         -ms-grid-columns: 5% 1fr 5%;
         grid-template-columns: 5% 1fr 5%;
     }
-
- 
-
-    .history-text {
+    .roosevelt-quote {
         padding: 1em;
         line-height: 1.5em;
         margin-top: 40px;
         border-top: 1px #9F895D solid;
     }
 
-    .history-text p{
+    .roosevelt-quote p{
         line-height:2rem;
     }
-    .franklin{
+    .quotee{
         justify-self: center;
-    }
-
-    .content-text1,
-    .content-text2 {
-        padding: 0 5%;
     }
 }
 
-
+/* THE HERO IS TEMPORARILY TURNED OFF */
 .hero{
     display: none !important;
 }
