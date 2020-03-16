@@ -77,7 +77,7 @@ a .logo-img {
     -ms-grid-row:1;
     -ms-grid-column:4;
     grid-area:snav-ul;
-    margin-top: 10px;
+    margin-top: auto;
     margin-bottom: auto;
 }
 
