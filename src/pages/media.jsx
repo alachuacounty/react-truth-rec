@@ -19,23 +19,17 @@ return(
                 <h1>Historical Media Gallery</h1>
             </div>
          
-
-
             <div class="grid-item video-title">
                 <h1>Videos</h1>
             </div>
 
  
             <section class="video-content">
-
-      
                 <article class="shadow-plantations-card">
                     <a data-toggle="modal" data-target="#myModal1">
                     <div class="image-top-left">
-          
 
                             <img data-toggle="modal" src={shadows} class="resource" alt="in the shadows image"/>
-                   
 
                     </div>
 
@@ -53,7 +47,6 @@ return(
 
                             <img src={boDidley} class="resource" alt="image of Bo Diddley Memorial 2008"/>
                     
-
                     </div>
 
                     <div class="card-text">
@@ -62,16 +55,12 @@ return(
                     </div>
                 </a>
                 </article>
-
-
                 <article class="baseball-card">
                     <a data-toggle="modal" data-target="#myModal3">
                     <div class="image-top">
 
                             <img src={baseballPlayers} class="resource" alt="image of baseball players"/>
-                 
 
-                       
                     </div>
 
                     <div class="card-text">
@@ -87,9 +76,7 @@ return(
                     <div class="image-top">
 
                             <img src={verdellWashington} class="resource" alt="image of Verdell Washington" />
-
-
-                       
+    
                     </div>
 
                     <div class="card-text">
