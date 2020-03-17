@@ -56,7 +56,27 @@ class ContactPage extends React.Component {
          if(formValid){
              // Post server
              alert("posting");
+            
+
+//need to figure out how to patch api
+        fetch("http://localhost:8080/contactform/")
+            .then((res) =>{
+
+                console.log("res got" + res.json());
+                return res.json();
+            })
+            .then((processed) =>{
+                console.log("processed");
+                console.log(processed);
+
+         });
+
+
+
+
          }
+
+         return formValid;
 
       }
 
