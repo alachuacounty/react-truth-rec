@@ -3,25 +3,26 @@
 h3{
     font-size: 24px;
 }
-.main-about{
+
+
+.main{
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 30% 1fr 30%;
     grid-template-columns: 30% 1fr 30%;
-        grid-template-areas: ". title ." ". about-content .";
-        margin-top:50px;
+        grid-template-areas: ". title ." ". meat .";
 }
 
-.title-about{
+.title{
     -ms-grid-row:1;
     -ms-grid-column:2;
     grid-area:title;
 }
 
-.about-content{
+.meat-content{
     -ms-grid-row: 2;
     -ms-grid-column: 2;
-    grid-area: about-content;
+    grid-area: meat;
 }
 
 .motions{
@@ -61,7 +62,7 @@ ol {
 
 @media screen and (max-width: 1024px) {
   
-    .main-about{
+    .main{
         -ms-grid-columns: 10% 1fr 10%;
         grid-template-columns: 10% 1fr 10%;
     }

@@ -2,7 +2,7 @@
 /*************************************************/
          /*UNIQUE MAIN GRID STYLES START HERE*/
 /************************************************/
-#events-main{
+#main-section{
 
     display:-ms-grid;
 
@@ -12,14 +12,14 @@
         grid-template-areas: ". content .";
 }
 @media screen and (max-width:920px){
-    #events-main {
+    #main-section {
         -ms-grid-columns: 12% 1fr 12%;
         grid-template-columns: 12% 1fr 12%;
     }
 }
 
 @media screen and (max-width: 780px) {
-    #events-main {
+    #main-section {
         -ms-grid-columns: 12% 1fr 12%;
         grid-template-columns: 12% 1fr 12%;
 
@@ -27,7 +27,7 @@
 }
 
 @media screen and (max-width:480px){
-    #events-main {
+    #main-section {
         -ms-grid-columns: 10% 1fr 10%;
         grid-template-columns: 10% 1fr 10%;
     }

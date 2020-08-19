@@ -1,9 +1,4 @@
-h1, h2{
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-#landmarks-main{
+#main-section{
     grid-area: main-section;
     display: -ms-grid;
     display: grid;
@@ -63,7 +58,7 @@ h1, h2{
 .markers article, .register-sites article, .noteworthy-locations article, .map article{
 
     width:20%;
-    min-width:250px;
+    min-width:200px;
     max-width:350px;
     margin-right:20px;
     margin-bottom:20px;
@@ -123,8 +118,8 @@ h1, h2{
 .map-card,
 .wallB,
 .newnansvile{
-    -webkit-box-shadow: 4px 4px 4px lightgrey;
-            box-shadow: 4px 4px 4px lightgrey;
+    -webkit-box-shadow: 3px 3px 3px lightgrey;
+            box-shadow: 3px 3px 3px lightgrey;
     border-radius: 10px;
     -webkit-transition: all .1;
     transition: all .1;
@@ -133,44 +128,44 @@ h1, h2{
 
 /* THE CODE FOR THE HOVER ON CARDS*/
 .walls-sign:hover{
-    -webkit-transform: scale(.9);
-            transform: scale(.9);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
 }
 .serenola:hover{
-    -webkit-transform: scale(.9);
-            transform: scale(.9);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
 }
 .quinn:hover{
-    -webkit-transform: scale(.9);
-            transform: scale(.9);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
 }
 .liberty:hover{
-    -webkit-transform: scale(.9);
-            transform: scale(.9);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
 }
 .shady-grove:hover{
-    -webkit-transform: scale(.9);
-            transform: scale(.9);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
 }
 .pleasant:hover{
-    -webkit-transform: scale(.9);
-            transform: scale(.9);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
 }
 .map-card:hover{
-    -webkit-transform: scale(.9);
-            transform: scale(.9);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
 }
 .wallB:hover{
-    -webkit-transform: scale(.9);
-            transform: scale(.9);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
 }
 .newnansvile:hover{
-    -webkit-transform: scale(.9);
-            transform: scale(.9);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
 }
 .map-img:hover{
-    -webkit-transform: scale(.9);
-            transform: scale(.9);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
 }
 /*END OF HOVER ON THE CARDS*/
 
@@ -476,12 +471,6 @@ h1, h2{
 
 /* video cards css starts here*/
 
-
-@media screen and (max-width: 480px) {
-#landmarks-main{
-    grid-template-columns: 8% 1fr 8%;
-}
-}
 
 .resource {
     width: 100%;

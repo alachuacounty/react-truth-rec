@@ -1,4 +1,21 @@
-#documents-main{
+
+/* STYLES FOR 1024 AND LARGER*/
+
+
+/* CSS FOR NAVBAR AND SUBNAV BAR*/
+
+
+  /* CODE FOR HAMBURGER MENU HERE*/
+
+
+/*HAMBURGER ENDS HERE */
+
+.grid-container{
+  -ms-grid-rows: auto 1fr auto;
+  grid-template-rows: auto 1fr auto;
+}
+
+#main-section {
   width: 90vw;
   /*min-height: calc(100vh - 180px);*/
   display:-ms-grid;

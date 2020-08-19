@@ -31,7 +31,7 @@ body {
 /*HAMBURGER ENDS HERE */
 /* video cards css starts here*/
 
-#media-main{
+#main{
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 15% 1fr 15%;
@@ -78,7 +78,7 @@ body {
 }
 
 .video-content article{
-    width: 17%;
+    width: 15%;
     margin-right: 20px;
     margin-bottom: 25px;
     min-width: 175px;
@@ -270,13 +270,12 @@ body {
 .freedom-ride-card,
 .cotton-club-card
 {
-    -webkit-box-shadow: 4px 4px 4px 4px lightgrey;
-            box-shadow: 4px 4px 4px 4px lightgrey;
+    -webkit-box-shadow: 3px 3px 3px 3px lightgrey;
+            box-shadow: 3px 3px 3px 3px lightgrey;
     /* border-radius: 10px; */
     -webkit-transition: all .1s;
     transition: all .1s;
     overflow: hidden;
-    border-radius: 10px;
 }
 
 /* HOVER STATES FOR THE CARDS*/
@@ -286,8 +285,8 @@ body {
 .verdell-washington-card:hover,
 .freedom-ride-card:hover,
 .cotton-club-card:hover{
-    -webkit-transform: scale(.9);
-            transform: scale(.9);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
 }
 
 

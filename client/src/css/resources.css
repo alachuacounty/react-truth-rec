@@ -3,18 +3,11 @@
     grid-template-rows: auto 1fr auto;
 }
 
-.resources-main{
-
-    grid-area:main-section;
-    margin: 40px 0;
-}
-
-.resources-content{
+.meat{
     display:-webkit-box;
     display:-moz-box;
     display:-ms-flexbox;
     display:flex;
-    margin-top:40px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
        -moz-box-orient: vertical;
@@ -33,7 +26,7 @@
     grid-template-columns: 45% 45%;
     -ms-grid-rows: 45% 5% 45%;
     grid-template-rows: 45% 45%;
-    gap: 7%;
+    gap: 5%;
         grid-template-areas: "res1 res2" "res3 res4";
 
 }
@@ -44,19 +37,25 @@
 
 
 .media{
+
     -ms-grid-row: 1;
+
     -ms-grid-column: 1;
 
     grid-area: res1;
 }
 .documents{
+
      -ms-grid-row: 1;
+
      -ms-grid-column: 3;
 
      grid-area: res2;
 }
 .landmarks{
+
       -ms-grid-row: 3;
+
       -ms-grid-column: 1;
 
       grid-area: res3;
@@ -64,7 +63,6 @@
 .links{
     -ms-grid-row: 3;
     -ms-grid-column: 3;
-
     grid-area: res4;
 }
 
@@ -73,6 +71,9 @@
 }
 
 /* code for the overlays start here*/
+
+
+
 .span-text{
     position: absolute;
     height: 100%;  
@@ -80,6 +81,7 @@
     top: -14px;   
     left: 0;
 }
+
 .text{
    position: absolute;
    top:50%;
@@ -88,11 +90,15 @@
            transform: translateY(-50%) translateX(-50%);
    
 }
+
 .text p{
     color: white;
     border-bottom: solid 3px #9F895D;
     font-size: 35px;
 }
+
+
+
 .description-text{
     position: absolute;
     height: 100%;  
@@ -103,7 +109,7 @@
 
 .text-2{
    position: absolute;
-   top:67%;
+   top:62%;
    left:50%;
    -webkit-transform: translateY(-50%) translateX(-50%);
            transform: translateY(-50%) translateX(-50%);
@@ -207,21 +213,27 @@ p{
      */
      @media screen and (max-width:980px){
         .image-grid {
+            
             -ms-grid-rows: 1fr 0% 1fr 0% 1fr 0% 1fr;
+            
             grid-template-rows: 1fr 1fr 1fr 1fr;
             -ms-grid-columns: 15% 0% 1fr 0% 15%;
             grid-template-columns: 15% 1fr 15%;
                 grid-template-areas: ". res1 ." ". res2 ." ". res3 ." ". res4 .";
             margin-top: 10%;
-            grid-gap: 10px;
+            grid-gap: 0%;
             -webkit-box-pack: center;
                -moz-box-pack: center;
                 -ms-flex-pack: center;
                     justify-content: center;
+
         }
+
+    
         .media{
 
             margin: 0;
+            
         }
         .documents{
 
@@ -251,7 +263,7 @@ p{
              font-size: 23px;
          }
 
-         h1.title-resources{
+         h1{
             font-size: 50px;
             display: block;
             -webkit-margin-before: 0;
@@ -358,9 +370,8 @@ p{
      
 @media screen and (max-width: 860px) {
   
-    .resources-main{
+    .main{
         -ms-grid-columns: 10% 1fr 10%;
         grid-template-columns: 10% 1fr 10%;
-     
     }
 }
