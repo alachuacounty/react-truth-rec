@@ -1,8 +1,8 @@
 /* setting up the assets being required in this project*/
-const Express = require('express');
+const express = require('express');
 const bodyparser = require("body-parser");
 const chalk = require('chalk');
-const App = Express();
+const App = express();
 const port = 8080;
 const cors = require("cors");
 App.use(cors());
@@ -13,7 +13,7 @@ App.use(bodyparser.json());
 //Add static route, using App.use()
 /*********************************/
 
-App.use("/", Express.static("client/build"));
+App.use("/", express.static("client/build"));
 
 /*********************************/
 

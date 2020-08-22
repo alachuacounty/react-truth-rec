@@ -55,15 +55,28 @@ class ContactPage extends React.Component {
          
          if(formValid){
              // Post server
-             alert("posting");
+             //alert("posting");
+
+             var formInput = {
+                firstName: this.state.firstName,
+                lastName : this.state.lastName,
+                email : this.state.inputEmail,
+                message: this.state.inputMessage
+            };
+
+            console.log(formInput);
             
 
 //need to figure out how to patch api
-        fetch("http://localhost:8080/contactform/")
+        fetch("http://localhost:3001/ProcessForm/", {
+            method: 'post',
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(formInput)
+          })
             .then((res) =>{
 
-                console.log("res got" + res.json());
-                return res.json();
+                console.log(res.body);
+                return res;
             })
             .then((processed) =>{
                 console.log("processed");
@@ -105,7 +118,7 @@ class ContactPage extends React.Component {
         let valid = value !== "";
         let formValid = valid && this.state.lnameValid  && this.state.emailValid && this.state.msgValid;
 
-        alert("setting state to  - "+ valid)
+        //alert("setting state to  - "+ valid)
 
         this.setState({[this.state.fnameValid]: valid, [this.state.formValid]: formValid},
         ()=> { this.updateErrorMsg(0,valid) ; alert("after fname check :: "+ this.state.fnameValid +" form is :" +this.state.formValid)});
